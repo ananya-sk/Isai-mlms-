@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Recommendation Form</title>
+  <link rel="stylesheet" href="music-recs.css">
+</head>
+
+<body class="form-container">
+
+  <h1>Music Recommendation Form</h1>
+
+  <form action="/submit_music_recommendation" method="post" id="musicRecommendationForm">
+    <label for="user_id">User ID:</label>
+    <select name="user_id" id="user_id" required></select>
+
+    <label for="song_id">Song ID:</label>
+    <select name="song_id" id="song_id" required></select>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="music-recommendation.js"></script>
+</body>
+
+</html>

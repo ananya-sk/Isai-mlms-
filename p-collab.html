@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist Collaborators Form</title>
+  <link rel="stylesheet" href="p-collab.css">
+</head>
+
+<body class="text-container">
+
+  <h1 class="title">Edit Playlist Collaborator</h1>
+
+  <div class="collaborator-container">
+    <form action="/edit_collaborator" method="post">
+      <label for="playlist_id">Playlist ID:</label>
+      <input type="number" name="playlist_id" id="playlist_id" value="{{ playlist_id }}" required>
+
+      <label for="user_id">User ID:</label>
+      <input type="number" name="user_id" id="user_id" value="{{ user_id }}" required>
+
+      <input type="submit" value="Edit Collaborator">
+    </form>
+  </div>  
+</body>
+</html>

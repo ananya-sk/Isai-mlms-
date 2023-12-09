@@ -1,0 +1,43 @@
+.playlist-details-input {
+  display: flex;
+  align-items: center;
+}
+
+.playlist-name {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.add-playlist {
+  margin-top: 10px;
+  background-color: rgb(249, 77, 31);;
+  color: white;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+body {
+  background-image: url('concert.jpg');
+  background-position-x: center;
+}
+
+.title{
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-left: 45px;
+  border: 1cm;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}

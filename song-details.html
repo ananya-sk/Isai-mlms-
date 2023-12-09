@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Details</title>
+  <link rel="stylesheet" href="song-details.css">
+</head>
+<body>
+  
+  <h1 class="title">Song Details</h1>
+
+  <img src="zene-small.jpg" alt="Image description" class="top-left-image">
+
+  <div class="form-container">
+  <form action="/song_details" method="post" >
+    <input type="hidden" name="id" value="{{ song.id }}">
+
+    <label for="title">Title:</label>
+    <input type="text" name="title" id="title" value="">
+
+    <label for="artist">Artist:</label>
+    <input type="text" name="artist" id="artist" value="">
+
+    <label for="album">Album:</label>
+    <input type="text" name="album" id="album" value="">
+
+    <label for="genre">Genre:</label>
+    <input type="text" name="genre" id="genre" value="">
+
+    <label for="duration">Duration (in mins):</label>
+    <input type="number" name="duration" id="duration" value="">
+
+    <label for="release_date">Release Date:</label>
+    <input type="date" name="release_date" id="release_date" value="">
+
+    <input type="submit" value="Save">
+  </form>
+  </div>
+</body>
+</html>

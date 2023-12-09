@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Details</title>
+  <link rel="stylesheet" href="artist-details.css">
+</head>
+<body>
+
+  <h1 class="title">Artist Details</h1>
+
+  <img src="zene-small.jpg" alt="Image description" class="top-left-image">
+  
+  <div class="form-container">
+  <form action="/artist_details" method="post">
+    <input type="hidden" name="id" value="">
+  
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" value="">
+  
+    <label for="genre">Genre:</label>
+    <input type="text" name="genre" id="genre" value="">
+  
+    <label for="website">Website:</label>
+    <input type="text" name="website" id="website" value="">
+  
+    <label for="social_media_links">Social Media Links:</label>
+    <input type="text" name="social_media_links" id="social_media_links" value="">
+  
+    <label for="biography">Biography:</label>
+    <textarea name="biography" id="biography"></textarea>
+  
+    <label for="image">Image:</label>
+    <input type="file" name="image" id="image">
+  
+    <input type="submit" value="Save">
+  </form>
+  </div>
+</body>
+</html>

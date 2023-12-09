@@ -1,0 +1,53 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+tr:hover a {
+  color: #fff;
+}
+
+/*
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(180, 177, 176);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+/*
+

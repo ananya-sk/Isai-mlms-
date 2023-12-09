@@ -1,0 +1,71 @@
+textarea {
+  height: 200px;
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+label {
+  display: block;
+}
+
+body {
+  background-image: url('black.jpg');
+  background-position-x: center;
+}
+
+.title{
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  margin-left: 45px;
+  border: 1cm;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.album-info{
+  color: white;
+  font-size: 25px;
+}
+
+body {
+  font-size: 18px;
+}
+
+.album-container{
+  color: white;
+  font-size: 20px;
+}
+
+.top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.album-cover{
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  
+}
+
+input[type="submit"] {
+  background-color: rgb(249, 77, 31);
+  color: white;
+  cursor: pointer;
+  width: 525px;
+}
+
+.album-container {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+  padding-left: 2px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(41, 41, 41, 0.5);
+  font-size: medium;
+}

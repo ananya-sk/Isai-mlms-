@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album Details</title>
+  <link rel="stylesheet" href="playlist-details.css">
+</head>
+<body>
+  <h1 class="title">Playlist Details</h1>
+  <img src="zene-small.jpg" alt="Image description" class="top-left-image">
+  <div class="playlist-details-input">
+    <input type="text" class="playlist-name" placeholder="Enter a playlist name...">
+    <button type="button" class="add-playlist">Add Playlist</button>
+  </div>
+  <select name="playlist_id">
+    <option value="">Select a playlist...</option>
+    {% for playlist in playlists %}
+      <option value="{{ playlist.id }}">{{ playlist.name }}</option>
+    {% endfor %}
+  </select>  
+    <ul class="playlist-songs">
+    </ul>
+  </div>  
+</body>
+</html>

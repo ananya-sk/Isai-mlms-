@@ -1,0 +1,59 @@
+form {
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(249, 77, 31);;
+  color: white;
+  cursor: pointer;
+}
+
+textarea {
+  height: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url('guitar.jpg');
+  background-position-x: center;
+}
+
+.title{
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-left: 45px;
+  border: 1cm;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-container {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+  padding-left: 2px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(41, 41, 41, 0.5);
+}
+
+.top-left-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}

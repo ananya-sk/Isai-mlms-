@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album Details</title>
+  <link rel="stylesheet" href="album-details.css">
+</head>
+
+<body class="text-container">
+  
+  <img src="zene-small.jpg" alt="Image description" class="top-left-image">
+
+  <h1 class="title">Album Details</h1>
+
+  <div class="album-container">
+    <img src="96 ac.jpeg" alt="Album cover" class="album-cover">
+    <div class="album-info">
+      <form action="/album_details" method="post">
+        <input type="hidden" name="id" value="{{ album.id }}">
+      
+        <label for="title">Name:</label>
+        <input type="text" name="title" id="title" value="">
+      
+        <label for="artist">Artist:</label>
+        <input type="text" name="artist" id="artist" value="">
+      
+        <label for="release_date">Release Date:</label>
+        <input type="date" name="release_date" id="release_date" value="">
+      
+        <label for="genre">Genre:</label>
+        <input type="text" name="genre" id="genre" value="">
+
+        <label for="songs">Songs:</label>
+        <input type="text" name="song-names" id="song-names" multiple>
+      
+        <label for="label">Label:</label>
+        <input type="text" name="label" id="label" value="">
+      
+        <label for="cover">Cover:</label>
+        <input type="file" name="cover" id="cover">
+      
+        <input type="submit" value="Save">
+      </form>
+      
+    </div>
+  </div>  
+</body>
+</html>
+
+<!--
+  <h2>96</h2>
+      <p>Govind Vasantha</p>
+      <p>Folk, Pop, Indie rock</p>
+      <p>August 24, 2018</p>
+      <p>Think Music India</p>
+    </div>
+    <div class="song-container">
+      <ul>
+        <li>Kaathalae Kaathalae</li>
+        <li>Vasantha Kaalangal</li>
+        <li>The Life of Ram</li>
+        <li>Iravingu Theevai</li>
+        <li>Yaen</li>
+        <li>Thaabangale</li>
+      </ul>
+-->

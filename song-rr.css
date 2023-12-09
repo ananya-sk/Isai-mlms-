@@ -1,0 +1,18 @@
+.song-rating-and-review-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-rating-and-review-table th,
+.song-rating-and-review-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.song-rating-and-review-table th {
+  background-color: #f2f2f2;
+}
+
+.song-rating-and-review-table tr:hover {
+  background-color: #f2f2f2;
+}
